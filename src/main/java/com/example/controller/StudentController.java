@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
 
 //    @Value("${app.name}")
-    @Value("${app.name: Springboot Demo2}")
+    @Value("${app.name: default Springboot Demo2}")
     private String appName;
 
     @GetMapping("/get")
